@@ -39,36 +39,25 @@ import {
 export const navigation = [
   {
     id: "0",
-    title: "Features",
-    url: "#features",
+    title: "Home",
+    url: "#hero",
   },
   {
     id: "1",
-    title: "Pricing",
-    url: "#pricing",
+    title: "About Me",
+    url: "#about-me",
   },
   {
     id: "2",
-    title: "How to use",
-    url: "#how-to-use",
+    title: "Projects",
+    url: "#projects",
   },
   {
     id: "3",
-    title: "Roadmap",
-    url: "#roadmap",
+    title: "Contact",
+    url: "#contact",
   },
-  {
-    id: "4",
-    title: "New account",
-    url: "#signup",
-    onlyMobile: true,
-  },
-  {
-    id: "5",
-    title: "Sign in",
-    url: "#login",
-    onlyMobile: true,
-  },
+  
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
@@ -94,55 +83,62 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
-    status: "done",
+    title: "Hunger Hub",
+    text: "Designed a dynamic food ordering platform allowing users to browse menus, place orders, and track deliveries in real time. Integrated secure payment with Stripe for smooth transactions, and added user login and signup features. Developed an intuitive admin dashboard for managing orders, menus, and delivery logistics, offering real-time insights to streamline business operations.",
+    date: "Full Stack Dev",
+    status: "progress",
     imageUrl: roadmap1,
     colorful: true,
   },
   {
     id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-    date: "May 2023",
-    status: "progress",
+    title: "E-Coderce",
+    text: "Developed an e-commerce platform with React, Node.js, Express, and MongoDB, allowing users to browse and purchase online courses and templates. Integrated admin authentication and authorization, alongside a secure Stripe payment gateway, ensuring a seamless and secure shopping experience for users.",
+    date: "Full Stack Dev",
+    status: "done",
     imageUrl: roadmap2,
   },
   {
     id: "2",
-    title: "Chatbot customization",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date: "May 2023",
+    title: "Bukhari Clone",
+    text: "Created a clone of the Bukhari Enterprises website, focusing on frontend development with React. Designed an intuitive user interface featuring product listings, search functionality, and a responsive layout. Implemented seamless navigation and visually appealing components, enhancing user experience while ensuring accessibility across devices",
+    date: "Frontend Dev",
     status: "done",
     imageUrl: roadmap3,
   },
   {
     id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
-    status: "progress",
+    title: "Foodone",
+    text: "Built a frontend project for a food restaurant using React, featuring a vibrant and user-friendly interface. The application includes a menu display and reservation functionality. Utilized responsive design principles to ensure accessibility across devices, enhancing user engagement with interactive elements and visually appealing layouts",
+    date: "Frontend Dev",
+    status: "done",
     imageUrl: roadmap4,
   },
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "HTML, CSS, Tailwind CSS, React.js, Node.js, Express.js, Mongo DB, My SQL, Redux, Framer-Motion, Responsive design, Bootstrap, Socket.IO, WebRTC, RESTful APIs ";
+export const collabText1 =
+  "C++, JavaScript, Python, TypeScript(Beginner) ";
+export const collabText2 =
+  "Data Structures and Algorithms, Competitive Programming, Full stack Web development, Frontend Development, Backend Development. ";
 
 export const collabContent = [
+  
+  {
+    id: "1",
+    title: "Programming Languages",
+    text: collabText1,
+  },
   {
     id: "0",
-    title: "Seamless Integration",
+    title: "Tech Stack",
     text: collabText,
   },
   {
-    id: "1",
-    title: "Smart Automation",
-  },
-  {
     id: "2",
-    title: "Top-notch Security",
+    title: "Areas of Interest",
+    text:collabText2,
   },
 ];
 
@@ -297,32 +293,27 @@ export const benefits = [
 export const socials = [
   {
     id: "0",
-    title: "Discord",
+    title: "Linkedin",
     iconUrl: discordBlack,
-    url: "#",
-  },
-  {
-    id: "1",
-    title: "Twitter",
-    iconUrl: twitter,
-    url: "#",
+    url: "https://www.linkedin.com/in/singh-suryanx/",
   },
   {
     id: "2",
     title: "Instagram",
     iconUrl: instagram,
-    url: "#",
+    url: "https://www.instagram.com/suryansh_0903/",
   },
   {
     id: "3",
-    title: "Telegram",
+    title: "whatsapp",
     iconUrl: telegram,
     url: "#",
   },
   {
     id: "4",
-    title: "Facebook",
+    title: "Telegram",
     iconUrl: facebook,
-    url: "#",
+    url: "https://github.com/surya-ansh",
   },
+  
 ];

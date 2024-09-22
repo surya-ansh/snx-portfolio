@@ -7,10 +7,10 @@ import { LeftCurve, RightCurve } from "./design/Collaboration";
 const Collaboration = () => {
   return (
     <Section crosses>
-      <div className="container lg:flex">
+      <div className="container lg:flex" id="about-me">
         <div className="max-w-[25rem]">
           <h2 className="h2 mb-4 md:mb-8">
-            AI Chat App for seamless collaboration
+            Technical Skills
           </h2>
 
           <ul className="max-w-[22rem] mb-10 md:mb-14">
@@ -27,12 +27,13 @@ const Collaboration = () => {
             ))}
           </ul>
 
-          <Button>Try it now</Button>
+          <Button href="#projects">Slide Down</Button>
         </div>
 
-        <div className="lg:ml-auto xl:w-[38rem] mt-4">
+        <div className="lg:ml-auto xl:w-[38rem] mt-4 text-center">
+          <h1 className="mb-2 text-4xl font-bold">About Me</h1>
           <p className="body-2 mb-8 text-n-4 md:mb-16 lg:mb-32 lg:w-[22rem] lg:mx-auto">
-            {collabText}
+          I’m Suryansh Singh, a Full Stack Developer and IITian passionate about solving complex problems. I specialize in creating scalable web applications and love tackling challenges with innovative solutions across both front-end and back-end technologies
           </p>
 
           <div className="relative left-1/2 flex w-[22rem] aspect-square border border-n-6 rounded-full -translate-x-1/2 scale:75 md:scale-100">
